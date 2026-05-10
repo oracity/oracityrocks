@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'papyrus', cursive, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+main, footer {
+    font-family: 'helvetica', sans-serif;
+    margin: 30px;
+}
+
+header {
+    margin: 30px;
+}
+
+#last-updated {
+    font-family: 'helvetica', sans-serif;
+}
