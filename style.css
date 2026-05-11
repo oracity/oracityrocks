@@ -1,26 +1,51 @@
 h1 {
     font-family: 'papyrus', cursive, sans-serif;
-    text-align: center;
-}
+    text-align: center}
 
-h2 {
-    font-size: 1em;
-    text-align: center;
-}
 
-main, footer {
+
+main,
+footer,
+.menubar li {
     font-family: 'helvetica', sans-serif;
     margin: 30px;
+
 }
 
 header {
     margin: 30px;
 }
 
-#last-updated {
-    font-family: 'helvetica', sans-serif;
-}
 
 body {
-    background-color: #b9b6b6;
+    background-image: url('images/background.jpeg');
+    background-repeat: repeat;
+    color: azure;
+    text-align: center;
+}
+
+.menubar li {
+    padding: 1em;
+    display: inline-block;
+    /*all the menu bar options are made to be on the same line for functionality*/
+    text-align: center;
+    /*centres the text of each menubar option in its own box*/
+    border: 4px solid #140645;
+    /*adds a border to each option to be able to discern them*/
+    color: black;
+    text-decoration: none;
+}
+
+.menubar {
+    text-align: center;
+    /*centres the menubar as a whole*/
+}
+
+a {
+    color: azure;
+}
+
+.menubar li:hover {
+    background-color: #140645;
+    color: azure;
 }
