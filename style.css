@@ -18,14 +18,12 @@ header {
 
 
 body {
-    background-image: url('images/background.jpeg');
-    background-repeat: repeat;
     color: azure;
     text-align: center;
 }
 
 .menubar li {
-    padding: 1em;
+    padding: 0.5em;
     display: inline-block;
     /*all the menu bar options are made to be on the same line for functionality*/
     text-align: center;
@@ -46,7 +44,6 @@ a {
 
 .menubar li:hover {
     background-color: #140645;
-    color: azure;
 }
 
 .menubar li a {
